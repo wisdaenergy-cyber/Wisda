@@ -1,0 +1,42 @@
+# robots.txt for https://www.wisda.in/
+# Allow all search engines and LLM crawlers to index the entire site.
+# Place this file at: https://www.wisda.in/robots.txt
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: OpenAI
+Allow: /
+
+User-agent: ChatGPT
+Allow: /
+
+User-agent: Perplexity
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+User-agent: Claude
+Allow: /
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.wisda.in/sitemap.xml

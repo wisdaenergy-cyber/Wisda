@@ -18,4 +18,8 @@ app.use("/api/v1", rootRouter);
 io.on("connection", (socket) => {
   console.log("Dashboard connected:", socket.id);
 });
-server.listen(3001);
+// server.listen(3001);
+const PORT = process.env.PORT || 3001;
+server.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
